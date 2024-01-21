@@ -1,3 +1,4 @@
+package Video_Rental_Store;
 class Video{
     String name;
     boolean checked;
@@ -79,17 +80,17 @@ class Store{
 
 public class VideoStore {
     public static void main(String[] args) {
-        Store obj1 = new Store();
-        obj1.addVideo("Jawan");
-        obj1.addVideo("Traveller");
-        obj1.addVideo("Dunkey");
-        obj1.receiveRating("Jawan", 5.1);
-        obj1.receiveRating("Traveller", 4.5);
-        obj1.receiveRating("Dunkey", 6.4);
-        obj1.checkOut("Jawan");
-        obj1.listInventory();
-        // obj1.returnVideo("Jawan");
-        // obj1.listInventory();
+        Store store_1 = new Store();
+        store_1.addVideo("Jawan");
+        store_1.addVideo("Traveller");
+        store_1.addVideo("Dunkey");
+        store_1.receiveRating("Jawan", 5.1);
+        store_1.receiveRating("Traveller", 4.5);
+        store_1.receiveRating("Dunkey", 6.4);
+        store_1.checkOut("Jawan");
+        store_1.listInventory();
+        store_1.returnVideo("Jawan");
+        store_1.listInventory();
         
 
     }
