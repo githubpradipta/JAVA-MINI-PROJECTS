@@ -1,4 +1,5 @@
 package Video_Rental_Store;
+
 class Video{
     String name;
     boolean checked;
@@ -90,6 +91,7 @@ public class VideoStore {
         store_1.checkOut("Jawan");
         store_1.listInventory();
         store_1.returnVideo("Jawan");
+        System.out.println("---------------------------------\n");
         store_1.listInventory();
         
 
